@@ -1,13 +1,7 @@
 ## End‑to‑End Setup Guide
 
-**Apple MacBook Pro M4 • 48 GB RAM (2025)**
+**Apple MacBook Air M4 • 16 GB RAM (2025)**
 *Flutter · Dart · Python · Java · C#/.NET · JavaScript (Node/React/Angular) · Kubernetes · Selenium · AI*
-
----
-
-### 1  Why the Bigger Machine?
-
-I juggle C‑suite strategy, Dev + Ops, security audits, docs, and hands‑on coding—often all in one day. The 24 GB M4 throttled under Docker, Android / iOS emulators, and local AI workloads; 48 GB is the first tier that doesn’t.
 
 ---
 
