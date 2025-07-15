@@ -28,7 +28,7 @@ install_homebrew_and_apps() {
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   eval "$(/opt/homebrew/bin/brew shellenv)"
   brew update
-  brew install --cask warp raycast visual-studio-code iterm2 docker android-studio flutter google-chrome firefox brave-browser slack discord signal vlc figma zoom sequel-ace
+  brew install --cask warp raycast visual-studio-code iterm2 docker android-studio flutter google-chrome firefox brave-browser signal vlc figma zoom sequel-ace
   brew install git nvm kubectl helm cocoapods exa pnpm wget
   echo "Homebrew and packages installed."
 }
