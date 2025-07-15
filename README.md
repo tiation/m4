@@ -1,6 +1,6 @@
 # macOS M4 Development Environment Setup
 
-**Apple MacBook Pro M4 • 48 GB RAM (2025)**  
+**Apple MacBook Air M4 • 16 GB RAM (2025)**  
 *Flutter · Dart · Python · Java · C#/.NET · JavaScript (Node/React/Angular) · Kubernetes · Selenium · AI*
 
 ---
