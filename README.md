@@ -1,291 +1,238 @@
-# macOS M4 Development Environment Setup
+# tiation-m4-project
 
 <div align="center">
 
-![Tiation Ecosystem](https://img.shields.io/badge/🔮_TIATION_ECOSYSTEM-tiation_m4_project-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
+![tiation-m4-project Banner](https://img.shields.io/badge/🔮_TIATION_ECOSYSTEM-tiation-m4-project-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
 
-**Enterprise-grade solution in the Tiation ecosystem**
+**Enterprise-grade solution: tiation-m4-project**
 
 *Professional • Scalable • Mission-Driven*
 
-[![🌐_Live_Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-m4-project)
-[![📚_Documentation](https://img.shields.io/badge/📚_Documentation-Complete-007FFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-m4-project)
-[![⚡_Status](https://img.shields.io/badge/⚡_Status-Active_Development-FF00FF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-m4-project)
-[![📄_License](https://img.shields.io/badge/📄_License-MIT-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-m4-project)
+[![🌐_Live_Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-00FFFF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/tiation-m4-project)
+[![📚_Documentation](https://img.shields.io/badge/📚_Documentation-Complete-007FFF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/tiation-m4-project)
+[![🏗️_Architecture](https://img.shields.io/badge/🏗️_Architecture-Diagram-FF00FF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/tiation-m4-project/architecture)
+[![⚡_Status](https://img.shields.io/badge/⚡_Status-Active Development-FF00FF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-m4-project)
+[![📄_License](https://img.shields.io/badge/📄_License-MIT-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-m4-project/blob/main/LICENSE)
 
 </div>
 
----
-**Apple MacBook Air M4 • 16 GB RAM (2025)**  
-*Flutter · Dart · Python · Java · C#/.NET · JavaScript (Node/React/Angular) · Kubernetes · Selenium · AI*
+## 🚀 Overview
+
+Enterprise-grade solution: tiation-m4-project
+
+### ✨ Key Features
+
+- 🎯 **Feature 1** - Description 1
+- 🔧 **Feature 2** - Description 2
+- 🌟 **Feature 3** - Description 3
+- 🛡️ **Feature 4** - Description 4
 
 ---
 
-## 🚀 Quick Start
+## 🏗️ Architecture
+
+![Architecture Diagram](assets/architecture/tiation-m4-project-architecture.svg)
+
+### System Components
+
+```mermaid
+graph TB
+    A[Component 1] --> B[Component 2]
+    B --> C[Component 3]
+    C --> D[Component 4]
+    
+    style A fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style B fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style C fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style D fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+```
+
+### Technology Stack
+
+- **Frontend**: Modern Frontend
+- **Backend**: Scalable Backend
+- **Database**: Database
+- **Infrastructure**: Infrastructure
+
+---
+
+## 📋 Table of Contents
+
+- [Features](#-features)
+- [Quick Start](#-quick-start)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Documentation](#-documentation)
+- [Screenshots](#-screenshots)
+- [FAQ](#-faq)
+- [Contributing](#-contributing)
+- [Support](#-support)
+- [License](#-license)
+- [About Tiation](#-about-tiation)
+
+---
+
+## ✨ Features
+
+{{FEATURES_LIST}}
+
+---
+
+## 🏃‍♂️ Quick Start
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd m4
+git clone https://github.com/tiation/tiation-m4-project.git
+cd tiation-m4-project
 
-# Run the master setup script
-chmod +x scripts/setup_master.sh
-./scripts/setup_master.sh
+# Install dependencies
+{{INSTALL_COMMANDS}}
 
-# Or run individual scripts
-./scripts/01_system_prefs.sh
-./scripts/02_package_mgmt.sh
-# ... and so on
+# Run the application
+{{RUN_COMMANDS}}
 ```
 
 ---
 
-## 📁 Repository Structure
+## 📦 Installation
 
-```
-m4/
-├── scripts/                     # Modular setup scripts
-│   ├── 01_system_prefs.sh      # System preferences configuration
-│   ├── 02_package_mgmt.sh      # Homebrew and package management
-│   ├── 03_dev_env.sh          # Developer environment setup
-│   ├── 04_mobile_dev.sh       # Mobile development (Flutter, Android, iOS)
-│   ├── 05_cloud_devops.sh     # Cloud and DevOps tools
-│   ├── 06_workspace_setup.sh  # Workspace directory structure
-│   ├── 07_startup_launcher.sh # Development environment launcher
-│   └── setup_master.sh        # Master orchestration script
-├── docs/                       # Documentation
-├── .gitignore                  # Git ignore rules
-├── LICENSE                     # MIT License
-├── CONTRIBUTING.md             # Contribution guidelines
-├── CODE_OF_CONDUCT.md         # Code of conduct
-└── README.md                  # This file
-```
+### Prerequisites
 
----
+{{PREREQUISITES}}
 
-## ⚙️ Script Modules
+### Installation Steps
 
-### 1. System Preferences (`01_system_prefs.sh`)
-- Dark mode configuration
-- Dock and Finder optimizations
-- Rosetta 2 installation
-- Xcode command-line tools
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/tiation/tiation-m4-project.git
+   cd tiation-m4-project
+   ```
 
-### 2. Package Management (`02_package_mgmt.sh`)
-- Homebrew installation
-- Essential GUI applications
-- Developer command-line tools
-- Development environments
-- Developer fonts
+2. **Install dependencies**
+   ```bash
+   {{DETAILED_INSTALL_COMMANDS}}
+   ```
 
-### 3. Developer Environment (`03_dev_env.sh`)
-- Oh My Zsh setup
-- Git configuration
-- SSH key generation
-- Node.js and npm setup
-
-### 4. Mobile Development (`04_mobile_dev.sh`)
-- Flutter environment configuration
-- Android SDK setup
-- iOS development environment
-- Python AI development environment
-
-### 5. Cloud & DevOps (`05_cloud_devops.sh`)
-- Kubernetes tools (kubectl, helm, k9s, minikube)
-- Cloud CLI tools (AWS, Azure, GCP)
-- Docker environment setup
-- AI/ML development tools
-- Monitoring and debugging tools
-
-### 6. Workspace Setup (`06_workspace_setup.sh`)
-- Organized directory structure following the `/workspace` convention
-- Shell environment variables and aliases
-- Git ignore templates
-- README templates
-
-### 7. Startup Launcher (`07_startup_launcher.sh`)
-- Quick development environment launch
-- Application startup automation
-- Environment status checking
-- Convenient aliases
+3. **Configuration**
+   ```bash
+   {{CONFIG_COMMANDS}}
+   ```
 
 ---
 
-## 📚 Philosophy
+## 🎯 Usage
 
-- **Portability:** Everything via Homebrew or scripts—no manual PKGs
-- **Reproducibility:** Dotfiles + `brew bundle` committed to Git
-- **Minimal surface:** macOS tweaks to cut cruft, JPG screenshots
-- **Legacy bridge:** Rosetta 2 for x86 tools that Flutter still needs
-- **Document or die:** Each command logged; no tribal knowledge
-- **Modular design:** Each script handles a specific domain
-- **Workspace conventions:** Organized directory structure following the user's rules
+### Basic Usage
 
----
+{{BASIC_USAGE}}
 
-## 📋 Workspace Convention
+### Advanced Usage
 
-The scripts establish a workspace structure that follows the conventions from the user's rules:
+{{ADVANCED_USAGE}}
 
-```
-~/workspace/
-├── 00_org/          # Brand assets, onboarding docs, templates
-├── 10_projects/     # Code, websites, ML notebooks
-├── 20_assets/       # Photos, videos, design files
-├── 30_docs/         # Strategy, documentation, legal
-├── 40_ops/          # Infrastructure-as-code, scripts, backups
-├── 70_data/         # Datasets, model weights
-└── 99_tmp/          # Scratch space (auto-purged weekly)
-```
+### Examples
 
-**Environment Variables:**
-- `WORKSPACE=~/workspace`
-- Aliases: `ws`, `proj`, `assets`, `docs`, `ops`, `data`, `tmp`
+{{USAGE_EXAMPLES}}
 
 ---
 
-## 🛠️ Usage
+## 📚 Documentation
 
-### Interactive Mode
-```bash
-./scripts/setup_master.sh
-# Follow the interactive menu
-```
+- **[User Guide](docs/user-guide.md)** - Complete user documentation
+- **[API Reference](docs/api-reference.md)** - Technical API documentation
+- **[Architecture](docs/architecture.md)** - System architecture overview
+- **[Deployment Guide](docs/deployment.md)** - Production deployment instructions
+- **[Developer Guide](docs/developer-guide.md)** - Development setup and guidelines
 
-### Full Automated Setup
-```bash
-./scripts/setup_master.sh --full
-```
+### Live Documentation
 
-### Individual Scripts
-```bash
-# Run specific setup modules
-./scripts/01_system_prefs.sh
-./scripts/02_package_mgmt.sh
-# etc.
-```
-
-### Quick Development Launch
-```bash
-# After setup, use the launcher
-start-dev  # Opens apps, starts services, activates environments
-```
+Visit our [GitHub Pages site](https://tiation.github.io/tiation-m4-project) for interactive documentation.
 
 ---
 
-## 💻 What Gets Installed
+## 📸 Screenshots
 
-### GUI Applications
-- **Terminals:** Warp, iTerm2
-- **Browsers:** Chrome, Firefox, Brave
-- **Development:** VS Code, Android Studio
-- **Communication:** Slack, Discord, Signal
-- **Utilities:** Raycast, Rectangle, Bitwarden
-- **Media:** VLC, Figma
-- **DevOps:** Docker Desktop
+<div align="center">
+  <img src="assets/screenshots/main-interface.png" alt="Main Interface" width="800">
+  <p><em>Main application interface</em></p>
+</div>
 
-### Command Line Tools
-- **Core:** git, wget, exa, fzf, starship
-- **Languages:** nvm, yarn, pnpm, python@3.11
-- **Cloud:** kubectl, helm, k9s, awscli, azure-cli
-- **Mobile:** Flutter, CocoaPods
-- **AI/ML:** cmake, localai, transformers
-
-### Development Environments
-- Node.js (latest LTS via nvm)
-- Python 3.11 with AI packages
-- Flutter with iOS/Android support
-- Docker and Kubernetes
-- Git with SSH keys
+<div align="center">
+  <img src="assets/screenshots/dashboard.png" alt="Dashboard" width="800">
+  <p><em>Analytics dashboard</em></p>
+</div>
 
 ---
 
-## 🔒 Security Features
+## ❓ FAQ
 
-- SSH key generation for GitHub/GitLab
-- Environment variable management
-- Secure .gitignore templates
-- 1Password integration ready (as per user's workflows)
-- No hardcoded secrets in scripts
+### General Questions
 
----
+**Q: What makes this solution enterprise-grade?**
+A: Our solution includes comprehensive security, scalability, monitoring, and enterprise integration features with professional support.
 
-## 📝 Documentation
+**Q: Is this compatible with existing systems?**
+A: Yes, we provide extensive API and integration capabilities for seamless system integration.
 
-- Each script is self-documenting with clear functions
-- Comprehensive error handling and user feedback
-- Modular design allows for easy customization
-- Templates provided for common development tasks
+**Q: What support options are available?**
+A: We offer community support through GitHub Issues and professional enterprise support for commercial users.
+
+### Technical Questions
+
+**Q: What are the system requirements?**
+A: {{SYSTEM_REQUIREMENTS}}
+
+**Q: How do I handle large scale deployments?**
+A: See our [Deployment Guide](docs/deployment.md) for enterprise-scale deployment strategies.
+
+**Q: Are there any security considerations?**
+A: Yes, please review our [Security Guide](docs/security.md) for comprehensive security best practices.
+
+### Troubleshooting
+
+**Q: Common installation issues**
+A: Check our [Troubleshooting Guide](docs/troubleshooting.md) for solutions to common problems.
+
+**Q: Performance optimization**
+A: Refer to our [Performance Guide](docs/performance.md) for optimization strategies.
 
 ---
 
 ## 🤝 Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
-- Code style and structure
-- Testing procedures
-- Pull request process
-- Issue reporting
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Development Setup
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests
+5. Submit a pull request
+
+### Code of Conduct
+
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 
 ---
 
-## 📜 License
+## 🆘 Support
 
-MIT License - see [LICENSE](LICENSE) for details
+### Community Support
 
----
+- **GitHub Issues**: [Report bugs or request features](https://github.com/tiation/tiation-m4-project/issues)
+- **Discussions**: [Join community discussions](https://github.com/tiation/tiation-m4-project/discussions)
+- **Documentation**: [Browse our documentation](https://tiation.github.io/tiation-m4-project)
 
-## 🚑 Support
+### Enterprise Support
 
-For issues, questions, or contributions:
-1. Check the documentation in the `docs/` directory
-2. Review existing issues on GitHub
-3. Create a new issue with detailed information
-4. Follow the code of conduct in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+For enterprise customers, we offer:
+- Priority support
+- Custom development
+- Training and consultation
+- SLA guarantees
 
----
-
-**Happy coding on your M4! 🎉**
-
-### 15  Validation Matrix
-
-| Tool       | Check                                                 |        |
-| ---------- | ----------------------------------------------------- | ------ |
-| Flutter    | `flutter doctor -v`                                   |        |
-| iOS sim    | \`xcrun simctl list                                   | head\` |
-| Android    | `adb devices`                                         |        |
-| .NET       | `dotnet --info`                                       |        |
-| k8s        | `kubectl version --client`                            |        |
-| Cloud CLIs | `aws --version` · `az --version` · `gcloud --version` |        |
-
----
-
-### 16  One‑Command Launcher
-
-`start-dev` (deployed by the bootstrap script) opens Warp, VS Code, Docker, Android Studio, Chrome, then waits for Docker and boots Minikube.
-
----
-
-### 17  Accessibility & IAM Extras
-
-* **Flutter WCAG** – use `flutter_a11y` package + Chrome DevTools’ Accessibility pane.
-* **Browser tracing:** SAML‑Tracer (Chrome / Firefox).
-* **VS Code** – Azure AD B2C Policy Explorer extension.
-
----
-
-### 18  Virtualisation (optional)
-
-```bash
-brew install --cask vmware-fusion     # or
-brew install --cask virtualbox
-```
-
----
-
-### 19  Done
-
-You now have a reproducible, full‑stack workstation—without the 1990s déjà vu. Happy shipping! 🚀
+Contact us at [tiatheone@protonmail.com](mailto:tiatheone@protonmail.com)
 
 ---
 
@@ -293,12 +240,49 @@ You now have a reproducible, full‑stack workstation—without the 1990s déjà
 
 This repository is part of the Tiation ecosystem. Explore related projects:
 
-- [🌟 TiaAstor](https://github.com/TiaAstor/TiaAstor) - Personal brand and story
+- [🌟 Tiation Platform](https://github.com/tiation/tiation-ai-platform) - Enterprise AI platform
+- [🤖 AI Agents](https://github.com/tiation/tiation-ai-agents) - Intelligent automation
+- [⚡ Terminal Workflows](https://github.com/tiation/tiation-terminal-workflows) - Developer tools
+- [🐳 Docker Solutions](https://github.com/tiation/tiation-docker-debian) - Container orchestration
+- [📝 CMS](https://github.com/tiation/tiation-cms) - Content management system
 - [🐰 ChaseWhiteRabbit NGO](https://github.com/tiation/tiation-chase-white-rabbit-ngo) - Social impact initiatives
 - [🏗️ Infrastructure](https://github.com/tiation/tiation-rigger-infrastructure) - Enterprise infrastructure
-- [🤖 AI Agents](https://github.com/tiation/tiation-ai-agents) - Intelligent automation
-- [📝 CMS](https://github.com/tiation/tiation-cms) - Content management system
-- [⚡ Terminal Workflows](https://github.com/tiation/tiation-terminal-workflows) - Developer tools
 
 ---
-*Built with 💜 by the Tiation team*
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌟 About Tiation
+
+**Tiation** is a leading provider of enterprise-grade software solutions, specializing in automation, productivity, and system integration tools. Our mission is to empower organizations with cutting-edge technology that drives efficiency and innovation.
+
+### Our Solutions
+
+- **Automation Platform**: Comprehensive business process automation
+- **Developer Tools**: Professional development and deployment tools
+- **Enterprise Integration**: Seamless system integration solutions
+- **Security Framework**: Advanced security and compliance tools
+
+### Connect With Us
+
+- **Website**: [https://github.com/tiation](https://github.com/tiation)
+- **GitHub**: [https://github.com/tiation](https://github.com/tiation)
+- **LinkedIn**: [Tiation Company](https://linkedin.com/company/tiation)
+- **Twitter**: [@TiationTech](https://twitter.com/TiationTech)
+
+---
+
+<div align="center">
+  <p>
+    <strong>Built with ❤️ by the Tiation Team</strong>
+  </p>
+  <p>
+    <a href="https://github.com/tiation">
+      <img src="https://img.shields.io/badge/Powered%20by-Tiation-cyan.svg" alt="Powered by Tiation">
+    </a>
+  </p>
+</div>
